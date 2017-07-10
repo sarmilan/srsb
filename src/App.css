@@ -1,0 +1,77 @@
+header {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    padding: 40px 0px 10px 40px;
+    font-weight: 700;
+}
+
+#entryTitle,
+#entryAuthor {
+    margin: 10px 0;
+}
+
+#entryBody {
+    margin-bottom: 10px;
+}
+
+.entries {
+    margin-top: 15px;
+}
+
+.entries p {
+    padding-bottom: 10px;
+    border-bottom: solid grey 1px;
+}
+
+.entries h6 {
+    border-bottom: dotted lightslategray 1px;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.card > h3 {
+  font-weight: bolder;
+}
+
+.red-bg {
+  background-color: #ff6f69;
+}
+
+.orange-bg {
+  background-color: #ffcc5c;
+}
+
+.notes {
+  color: red;
+}
+
+.app-name {
+  font-size: 22px;
+}
+
+/* REVIEW CARDS */
+.bootn {
+  width: 400px;
+  height: 200px;
+  background: orange;
+
+}
+
+.done-bootn {
+  width: 400px;
+  height: 200px;
+  background: red;
+}
